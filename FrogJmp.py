@@ -15,7 +15,7 @@ def solution(X, Y, D):
     
     return num_jump_need
 ###########################################
-
+# 100% score on codility
 diff = Y-X
 
 count = int(diff/D) if diff%D==0 else int(diff/D) + 1
