@@ -14,4 +14,10 @@ def solution(X, Y, D):
         num_jump_need += 1
     
     return num_jump_need
+###########################################
 
+diff = Y-X
+
+count = int(diff/D) if diff%D==0 else int(diff/D) + 1
+
+print(count)
